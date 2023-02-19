@@ -1,8 +1,9 @@
+#include <stdio.h>
 #include "ll.h"
 
 int main()  {
 
-	LL_LIST	mylist;
+	LL_LIST	mylist = {0};
 
 	char	temp[50][50];
 	int	i;
